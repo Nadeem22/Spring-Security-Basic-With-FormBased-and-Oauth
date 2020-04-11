@@ -1,1 +1,20 @@
 .\keytool -genkey -alias bootsecurity -storetype PKCS12 -keyalg RSA -keysize 2048 -keystore bootsecurity.p12 -validity 3650
+
+C:\Program Files\Java\jdk1.8.0_161\bin>.\keytool -genkey -alias bootsecurity -storetype PKCS12 -keyalg RSA -keysize 2048 -keystore bootsecurity.p12 -validity 3650
+Picked up _JAVA_OPTIONS: -Djava.net.preferIPv4Stack=true
+Enter keystore password:
+Re-enter new password:
+What is your first and last name?
+  [Unknown]:  nadeem siddiqui
+What is the name of your organizational unit?
+  [Unknown]:  developer
+What is the name of your organization?
+  [Unknown]:  ingroinfo
+What is the name of your City or Locality?
+  [Unknown]:  bangalore
+What is the name of your State or Province?
+  [Unknown]:  KARNATKA
+What is the two-letter country code for this unit?
+  [Unknown]:  KA
+Is CN=nadeem siddiqui, OU=developer, O=ingroinfo, L=bangalore, ST=KARNATKA, C=KA correct?
+  [no]:  yes
