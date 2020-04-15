@@ -8,6 +8,6 @@ import rc.bootsecurity.model.User;
 
 @Repository
 public interface UserRepository  extends JpaRepository<User,Long> {
-   // User findByUsernameAnd(String username);
+   User findByUsername(String username);
 
 }
